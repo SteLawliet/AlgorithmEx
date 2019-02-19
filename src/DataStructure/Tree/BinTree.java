@@ -1,6 +1,4 @@
-package DataStructure;
-
-import java.util.HashMap;
+package DataStructure.Tree;
 
 import ArraysEx.Fanb;
 

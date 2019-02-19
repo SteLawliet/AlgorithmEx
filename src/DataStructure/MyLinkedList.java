@@ -44,6 +44,19 @@ public class MyLinkedList {
         n1.next = n0;
         return n1;
     }
+    public static Node ReReverse(Node head){
+        if (head.next == null){
+            return head;
+        }
+return null;
+    }
+
+
+
+
+
+
+
 
     /**
      * 0 -> 1 -> 2 -> null

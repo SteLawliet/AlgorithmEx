@@ -86,7 +86,5 @@ public class HeapS {
                 print(a1);
             }
         }
-
-
     }
 }

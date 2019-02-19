@@ -3,6 +3,7 @@ package Graph;
 import org.junit.Test;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 
 /**
@@ -12,12 +13,6 @@ import java.util.LinkedHashMap;
  * @create: 2018-07-12 18:50
  **/
 public class BFS {
-
-
-    @Test
-    public void testBFS() {
-        HashMap<Integer,String> map = new LinkedHashMap<>();
-    }
-
+    HashSet<Node> hashSet = new HashSet<>();
 
 }

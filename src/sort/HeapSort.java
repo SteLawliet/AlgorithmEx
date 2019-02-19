@@ -6,6 +6,9 @@ package sort;
  * @author: Zhaoziqi
  * @create: 2018-06-15 18:01
  **/
+
+//left = index * 2 + 1
+//right = index * 2 + 2
 public class HeapSort {
 
     public static void heapSort(int[] arr) {
@@ -24,13 +27,15 @@ public class HeapSort {
     }
 
     public static void heapInsert(int[] arr, int index) {
+
         while (arr[index] > arr[(index - 1) / 2]) {
             swap(arr, index, (index - 1) / 2);
             index = (index - 1) / 2;
         }
     }
-
+    
     public static void heapify(int[] arr, int index, int size) {
+
         int left = index * 2 + 1;
         while (left < size) {
             int largest = left + 1 < size && arr[left + 1] > arr[left] ? left + 1 : left;
