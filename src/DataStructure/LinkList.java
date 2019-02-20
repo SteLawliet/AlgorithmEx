@@ -1,7 +1,5 @@
 package DataStructure;
 
-import java.util.ArrayList;
-
 /**
  * @program: exam
  * @description:
@@ -67,7 +65,6 @@ public class LinkList {
             tempNode = tempNode.next;
             nextNode.next = thisNode;
         }
-        nextNode.next = thisNode;
         head.next = null;
         return nextNode;
     }
